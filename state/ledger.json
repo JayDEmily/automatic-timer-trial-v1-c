@@ -7,13 +7,17 @@
   "execution_status": "active",
   "current_leaf": "G3-C1",
   "last_completed_leaf": null,
-  "current_candidate_sha": "b86411c7fb664f35a4fb8e4169c861d1b32c145b",
+  "current_candidate_sha": "9550c82be34c9e8f8c5c05c297182aa5d03cb457",
   "next_assignment": {
-    "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-r2, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue."
+    "role": "independent reviewer",
+    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-C1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b080bec3bc08191a0a388c45e619564-project-test-c-r2/c/6b080d87-7cf8-83ec-b7c3-0456382cf530"
+    }
   },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45804761146,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "2005f5e4a5d68752d76deb4abda8774ba33092ed",
   "bootstrap": {
@@ -33,9 +37,27 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": null
+    "candidate_result": {
+      "provider": "github-actions",
+      "run_id": 45804761146,
+      "run_attempt": 1,
+      "job_id": 139856952520,
+      "job_name": "Test normalizer",
+      "workflow": ".github/workflows/ci.yml",
+      "event": "push",
+      "ref": "refs/heads/trial/gate-3-r2",
+      "head_sha": "9550c82be34c9e8f8c5c05c297182aa5d03cb457",
+      "tested_sha": "9550c82be34c9e8f8c5c05c297182aa5d03cb457",
+      "tested_tree": "4138a6d7f2cc0c848997315b689484996682d387",
+      "conclusion": "success",
+      "test_command": "python3 -B -m unittest discover -s tests -v",
+      "tests_passed": 7,
+      "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-c/actions/runs/45804761146",
+      "job_log_sha256": "9126fed38a76ab47f7a0418c6d9c22ba04f692549ef804764e3a61c45bcee7f0",
+      "status": "completed"
+    }
   },
-  "note": "Owner-authorised fresh native Start. This ledger directly commissions the initial worker. Eligible reviewer delivery requires a separate H.",
+  "note": "Candidate C and its required original push CI are verified. Independent review is now eligible through the exact observed saved-turn-only source; no delivery or verdict is presumed.",
   "project_name": "Project Test C R2",
   "project_id": "g-p-6b080bec3bc08191a0a388c45e619564"
 }
