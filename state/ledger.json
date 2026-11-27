@@ -7,13 +7,17 @@
   "execution_status": "active",
   "current_leaf": "G3-C1",
   "last_completed_leaf": null,
-  "current_candidate_sha": "2483496b083f22c59e346ba83c361c0c714233a2",
+  "current_candidate_sha": "4db61415012538f386ae3e128f54e11872bc82a2",
   "next_assignment": {
-    "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-hosted-editor-retry-c2-20261127, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue. Record the real UTC engineering, Git, test and CI interval in the permitted evidence. Use existing approved tooling only and keep any exact permission stop or failed check at its actual checkpoint. After verified CI and separate eligible H, stop before claim or native sender and report your exact H and binding to the qualification manager. In the separate reviewer commission use the exact authorised canonical Project landing from this bootstrap only after observing or verifying that route in this Project."
+    "role": "independent reviewer",
+    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-C1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b09351e1ee481918085c34cad165e47/project"
+    }
   },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45961867457,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "8c4a11205c3a3b6df13979a274841e7d8f3391c1",
   "bootstrap": {
@@ -32,9 +36,67 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": null
+    "candidate_result": {
+      "status": "completed",
+      "conclusion": "success",
+      "candidate_sha": "4db61415012538f386ae3e128f54e11872bc82a2",
+      "candidate_tree": "4e9b2d8720b8b072c0dfe4034b14eb436a957778",
+      "run_id": 45961867457,
+      "run_attempt": 1,
+      "workflow_name": "Fixture CI",
+      "workflow": ".github/workflows/ci.yml",
+      "event": "push",
+      "ref": "refs/heads/trial/gate-3-hosted-editor-retry-c2-20261127",
+      "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-c/actions/runs/45961867457",
+      "run_started_at_utc": "2026-11-27T07:55:55Z",
+      "run_updated_at_utc": "2026-11-27T07:56:01Z",
+      "required_job": {
+        "id": 140381325150,
+        "name": "Test normalizer",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at_utc": "2026-11-27T07:55:57Z",
+        "completed_at_utc": "2026-11-27T07:56:00Z",
+        "url": "https://github.com/JayDEmily/automatic-timer-trial-v1-c/actions/runs/45961867457/job/140381325150"
+      },
+      "tested_sha": "4db61415012538f386ae3e128f54e11872bc82a2",
+      "tested_tree": "4e9b2d8720b8b072c0dfe4034b14eb436a957778",
+      "test_command": "python3 -B -m unittest discover -s tests -v",
+      "tests_passed": 7,
+      "actual_test_output": [
+        "2026-11-27T07:55:58.7445962Z TESTED_SHA=4db61415012538f386ae3e128f54e11872bc82a2",
+        "2026-11-27T07:55:58.7447769Z TESTED_TREE=4e9b2d8720b8b072c0dfe4034b14eb436a957778",
+        "2026-11-27T07:55:58.7841652Z test_empty (test_normalizer.NormalizeTests.test_empty) ... ok",
+        "2026-11-27T07:55:58.7844462Z test_internal_whitespace (test_normalizer.NormalizeTests.test_internal_whitespace) ... ok",
+        "2026-11-27T07:55:58.7847855Z test_omits_empty_and_whitespace_only_entries (test_normalizer.NormalizeTests.test_omits_empty_and_whitespace_only_entries) ... ok",
+        "2026-11-27T07:55:58.7851170Z test_order_duplicates_and_case (test_normalizer.NormalizeTests.test_order_duplicates_and_case) ... ok",
+        "2026-11-27T07:55:58.7854541Z test_preserves_case_and_internal_whitespace_after_trimming (test_normalizer.NormalizeTests.test_preserves_case_and_internal_whitespace_after_trimming) ... ok",
+        "2026-11-27T07:55:58.7858604Z test_preserves_order_and_duplicates_after_trimming (test_normalizer.NormalizeTests.test_preserves_order_and_duplicates_after_trimming) ... ok",
+        "2026-11-27T07:55:58.7862031Z test_trims_outer_whitespace (test_normalizer.NormalizeTests.test_trims_outer_whitespace) ... ok",
+        "2026-11-27T07:55:58.7863390Z ",
+        "2026-11-27T07:55:58.7864120Z ----------------------------------------------------------------------",
+        "2026-11-27T07:55:58.7865571Z Ran 7 tests in 0.000s",
+        "2026-11-27T07:55:58.7866053Z ",
+        "2026-11-27T07:55:58.7866619Z OK"
+      ],
+      "job_log_sha256": "84a4131fe2d61365d3e048153587c5eaa49a637538af49ad63f2f00f47b66522",
+      "job_log_bytes": 14139,
+      "observation": {
+        "original_run_list_observed_utc": "2026-11-27T08:17:01.209824+00:00",
+        "original_attempt_verification_started_utc": "2026-11-27T08:18:17.028649+00:00",
+        "original_attempt_verification_completed_utc": "2026-11-27T08:18:19.364522+00:00",
+        "log_api_status": 302,
+        "log_download_status": 200
+      },
+      "candidate_publication": {
+        "commit_started_utc": "2026-11-27T07:55:50.371786+00:00",
+        "commit_completed_utc": "2026-11-27T07:55:50.391357+00:00",
+        "push_started_utc": "2026-11-27T07:55:50.901599+00:00",
+        "remote_readback_utc": "2026-11-27T07:55:54.143130+00:00"
+      }
+    }
   },
-  "note": "Owner-authorised direct Start for lane C of the fresh Gate 3 hosted editor retry cohort. Independent review follows a separate eligible handoff.",
+  "note": "G3-C1 candidate published and original candidate-specific push CI verified, including actual checkout SHA/tree and required test output. Independent review is pending. Designated implementation stop is at this separate eligible ledger handoff before any claim or native Send.",
   "project_id": "g-p-6b09351e1ee481918085c34cad165e47",
   "project_name": "PCA Gate 3 Retry Lane C2 20261127"
 }
